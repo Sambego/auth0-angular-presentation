@@ -15,7 +15,7 @@ import {
 import 'prismjs/components/prism-bash.min.js';
 import 'prismjs/components/prism-typescript.min.js';
 
-import Cant from "./video/cant.mp4";
+import Nemo from "./video/nemo.mp4";
 import NPM from "./video/npm.mp4";
 import cc from "./img/cc.svg";
 import Sam from "./img/sam.png";
@@ -42,14 +42,14 @@ function App() {
       }
     >
       <Slide style={{ background: `${accent}`, color: "#fff" }}>
-        {/* <Video
-          src={Cant}
+        <Video
+          src={Nemo}
           loop
           autoplay
           full
           color={accent}
           style={{ overflow: "hidden", zIndex: 1 }}
-        /> */}
+        />
         <Title style={{ 
           color: "#ffffff", 
           position: "relative", 
